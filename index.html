@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShellFolio CreatedBy Jun Ming</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script>
+    src="script/main.js"
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <div id="terminal">
+      <div class="controls">
+        <ul>
+          <li id="hide">&CircleMinus;</li>
+          <li id="quit">&CircleTimes;</li>
+        </ul>
+      </div>
+      <div class="message">
+        <p>
+          <span class="session-userid"></span><br />Type
+          <span id="helper">"help" </span>to
+          see available commands. <br /><span id="case-sense">All Commands are case
+            insensitive.
+          </span>
+        </p>
+      </div>
+      <div id="insert" class="dynamic-content"></div>
+    </div>
+  </div>
+  <div class="maximize-terminal footer-on-exit">
+    <p>
+      <span>Restore <span>&UpArrowBar; </span></span>
+    </p>
+  </div>
+
+</body>
+</html>
