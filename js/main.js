@@ -21,7 +21,7 @@ $.fn.typewriter = function(callback) {
         // Typewriter animation is complete, call the callback
         callback();
       } else {
-        setTimeout(e, 2);
+        setTimeout(e, 25);
       }
     };
     e();
