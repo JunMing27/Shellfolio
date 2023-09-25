@@ -44,7 +44,7 @@ p {
   max-width: 1000px;
   margin: auto;
   height: 50vh;
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -65,4 +65,35 @@ p {
 .root:before {
   content: '$root ~';
   color: #52a563;
+}
+
+ #cmd {
+    background: transparent;
+    border: none;
+    color: #0f0;
+    outline: none;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    caret: #0f0 underscore;
+ }
+
+input[type="text"]::selection {
+  caret-shape: underscore;
+}
+
+ #inputOutput{
+  display:none;
+ }
+
+ .inputOutputTxt{
+  color: #0f0;
+ }
+
+.errorMsg{
+  color: red;
+}
+
+.infoMsg{
+  color:  #0bc;
 }
