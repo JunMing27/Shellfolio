@@ -67,6 +67,11 @@ p {
   color: #52a563;
 }
 
+.root2_1:before {
+  content: '$root ~/skill';
+  color: #52a563;
+}
+
  #cmd {
     background: transparent;
     border: none;
